@@ -77,17 +77,17 @@ export default function IntroSection() {
 
                         {/* Socials */}
                         <div className="flex items-center gap-3">
-                            <Social href="https://www.linkedin.com/in/yourhandle" label="LinkedIn">
+                            <Social href="https://www.linkedin.com/in/ethan-kemprowski" label="LinkedIn">
                                 <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current">
                                     <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0H12v2.2h.06c.62-1.18 2.14-2.42 4.41-2.42 4.72 0 5.59 3.11 5.59 7.15V24h-5v-7.1c0-1.69-.03-3.86-2.35-3.86-2.36 0-2.72 1.84-2.72 3.74V24h-5V8z" />
                                 </svg>
                             </Social>
-                            <Social href="https://github.com/yourhandle" label="GitHub">
+                            <Social href="https://github.com/ethank27" label="GitHub">
                                 <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current">
                                     <path d="M12 .5C5.73.5.98 5.24.98 11.5c0 4.85 3.15 8.96 7.52 10.41.55.1.75-.24.75-.53 0-.26-.01-1.11-.02-2.02-3.06.67-3.71-1.3-3.71-1.3-.5-1.26-1.22-1.6-1.22-1.6-.99-.68.08-.66.08-.66 1.1.08 1.67 1.14 1.67 1.14.97 1.66 2.55 1.18 3.17.9.1-.7.38-1.18.69-1.45-2.44-.28-5.01-1.22-5.01-5.42 0-1.2.43-2.18 1.14-2.95-.11-.28-.5-1.43.11-2.98 0 0 .95-.3 3.1 1.13a10.7 10.7 0 0 1 2.82-.38c.95 0 1.9.13 2.82.38 2.15-1.44 3.1-1.13 3.1-1.13.6 1.55.22 2.7.11 2.98.71.77 1.14 1.75 1.14 2.95 0 4.21-2.58 5.13-5.03 5.4.39.34.73 1.01.73 2.04 0 1.47-.01 2.65-.01 3.01 0 .29.2.63.76.52A10.52 10.52 0 0 0 23 11.5C23 5.24 18.27.5 12 .5z" />
                                 </svg>
                             </Social>
-                            <Social href="mailto:you@example.com" label="Email">
+                            <Social href="mailto:ekemprow@gmail.com" label="Email">
                                 <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current">
                                     <path d="M12 13 2 6.76V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6.76L12 13zm10-9H2l10 6 10-6z" />
                                 </svg>
