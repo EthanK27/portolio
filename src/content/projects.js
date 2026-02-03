@@ -59,6 +59,6 @@ export const projects = [
             "A full stack, database driven web application that simulates a combination of letterboxd and blockbuster. Users can create accounts, rent movies/shows, leave reviews, and search using a comprehensive filtering system.",
         tech: ["JavaScript", "Python", "SQL", "Tailwind"],
         github: "https://github.com/maryannputnam/blockboxd",
-        image: "/projects/Blockboxd.png",
+        image: "/projects/blockboxd.png",
     },
 ];
