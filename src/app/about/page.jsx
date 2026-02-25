@@ -38,6 +38,7 @@ export default function AboutPage() {
                     <div className="rounded-2xl border bg-white/70 p-6 shadow-sm backdrop-blur">
                         <h2 className="text-xl font-bold">Recent highlights</h2>
                         <ul className="mt-3 space-y-3 text-gray-700">
+                            <li>Won second place overall and MongoDB Sponsor Tracks at Hack@Davidson 2026 with (<span className="font-medium">ThreatSight</span>)</li>
                             <li>Built a full-stack ticketing app (<span className="font-medium">React + Chakra UI + Flask + Stripe + SQLite</span>) with JWT auth and database storage.</li>
                             <li>Created a DevOps dashboard powered by <span className="font-medium">KQL + App Insights</span> for live service health.</li>
                             <li>Automated testing (<span className="font-medium">JavaScript, Postman, VSCode</span>) to raise reliability for a core service.</li>
@@ -69,7 +70,7 @@ export default function AboutPage() {
                             <h2 className="text-xl font-bold">Tools & Platforms</h2>
                             <div className="mt-3 flex flex-wrap gap-2">
                                 {[
-                                    "AWS", "Azure", "Bokeh", "Docker Desktop", "Flask", "Eclipse", "GitHub", "GitLab", "Grafana", "Intellij", "Jira", "JMeter",  "Jupyter Notebook", "NPM", "Postman", "Stripe", "Terraform",  "Visual Studios", "Vite", "VSCode"
+                                    "AWS", "Azure", "Bokeh", "Docker Desktop", "Flask", "Eclipse", "GitHub", "GitLab", "Grafana", "Intellij", "Jira", "JMeter", "Jupyter Notebook", "MongoDB", "NPM", "Postman", "Stripe", "Terraform", "Visual Studios", "Vite", "VSCode", "WireShark"
                                 ].map((t) => (
                                     <span
                                         key={t}
