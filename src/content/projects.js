@@ -2,12 +2,22 @@ export const projects = [
     {
         id: "threatsight",
         title: "ThreatSight",
-        summary: "An AI-powered dashboard that allows security analysts to simplify active threats and network traffic for higher ups and non-technical individuals to understnad",
+        summary: "An AI-powered dashboard that allows security analysts to simplify active threats and network traffic for higher ups and non-technical individuals to understand",
         description:
             "An AI-powered complete, cloud-hosted security center that displays data from Nessus, Wireshark, and a custom configured honeypot. Collects logs from these 3 sources and visualizes them in a clear and concise way using graphs and charts.",
-        tech: ["JavaScript, Python, ReactJS, MongoDB, Vercel, Kali, Ubuntu, JSON, Postman, Github, Express.js, Multer, TailwindCSS, Wireshark, Apache-echarts, Node.js, VSCode, Att&ck, Mongoose, Opencanary, Pymongo"],
+        tech: ["JavaScript", "Python", "ReactJS", "MongoDB", "Vercel", "Kali", "Ubuntu", "JSON", "Postman", "Github", "Express.js", "Multer", "TailwindCSS", "Wireshark", "Apache-echarts", "Node.js", "VSCode", "Att&ck", "Mongoose", "Opencanary", "Pymongo", "Gemini"],
         github: "https://github.com/EthanK27/threatsight",
         image: "/projects/ThreatSight.jpg",
+    },
+    {
+        id: "taurus",
+        title: "Taurs",
+        summary: "An AI-powered trading strategy builder that converts plain English ideas into executable backtests",
+        description:
+            "Taurus is a local AI trading strategy playground. You describe a strategy in plain English, Gemini turns it into code, the backend runs a backtest, and the frontend shows the result as an interactive graph with summary notes.",
+        tech: ["JavaScript", "Python", "React.js", "Node.js", "next.js", "Alpaca API", "Apache-echarts", "TailwindCSS", "shadcn Components", "Pandas", "Gemini", "Github", "VSCode"],
+        github: "https://github.com/EthanK27/Taurus",
+        image: "/projects/Taurus2.jpg",
     },
     {
         id: "tessera",
